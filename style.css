@@ -1,0 +1,102 @@
+#row1 {
+  margin-top: 30px;
+}
+@media (max-width: 700px) {
+  #row1 {
+    margin-top: 40px;
+  }
+}
+
+#col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  #col2 {
+    margin-top: 40px;
+    background-color: aqua;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.result-sect {
+  display: flex;
+  justify-content: center;
+
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 25px;
+}
+@media (max-width: 700px) {
+  .result-sect {
+    display: flex;
+    justify-content: center;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+}
+.body {
+  background-color: rgb(125, 76, 12);
+}
+#col4 {
+  padding: 2opx;
+  font-weight: bolder;
+  margin-top: 30px;
+  color: rgb(255, 13, 0);
+}
+@media (max-width: 700px) {
+  #col4 {
+    display: none;
+  }
+}
+.Score1 {
+  color: rgb(3, 3, 3);
+  font-size: 20px;
+}
+.Lifespan1 {
+  color: rgb(3, 3, 3);
+  font-size: 20px;
+}
+.Lifespan2 {
+  color: rgb(3, 3, 3);
+  font-size: 20px;
+}
+.Score2 {
+  color: rgb(3, 3, 3);
+  font-size: 20px;
+}
+
+#col3 {
+  padding: 20px;
+  font-weight: bolder;
+  margin-top: 30px;
+  color: rgb(255, 187, 0);
+}
+@media (max-width: 700px) {
+  #col3 {
+    padding: 20px;
+    font-weight: bolder;
+    margin-top: 50px;
+  }
+}
+.reset {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-size: 15px;
+}
